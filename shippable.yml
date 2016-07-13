@@ -42,7 +42,7 @@ build:
     
 integrations:
   hub:
-    - integrationName: ship4-docker
+    - integrationName: ship24-docker
       type: docker
 
 
