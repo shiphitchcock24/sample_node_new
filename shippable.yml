@@ -77,13 +77,14 @@ integrations:
       on_success: always      
       on_failure: always   
      
-    - integrationName: ship-hipchat
-      type: hipchat
-      recipients:
-        - '#testing'
+   # - integrationName: ship-hipchat
+    #  type: hipchat
+#      recipients:
+ #       - '#testing'
      # - '#Pillar%20of%20Autumn'
-        - '@shiphitchcock4'
-      on_start: always 
-      on_success: always   
-      on_failure: always
+  
+  #      - '@shiphitchcock4'
+   #   on_start: always 
+   #   on_success: always   
+   #   on_failure: always
       #on_pull_request: always     
