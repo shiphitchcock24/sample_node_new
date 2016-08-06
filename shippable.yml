@@ -10,13 +10,13 @@ node_js:
   #- 5.0
 env:
   global:
-   # - secure: tBzfo2XapqQbBey68tL0HbMfTyRdJfScILAN3ce2gu2riwKFlo0kLeH5oML36suVSorR591iZYkaMzxyDMNiYPqrRFH5gF8x4kQWCRFD41Iv+7y+KeXH3SR3Sxp1fylmuniE+slV+VMHPSQTXzykJVTk/SnbRc4+HbUPysJjtrE5ySpbtxJvXzajWpnvnBEnes/TwoUzpJtTcLM5UTLyD0TBPpWKxvNM31WRD/gtANz/kvTgDTJzD/uGDKipUl4BRXMm4DNBuO3D3YwZseY7jlbaXQxDDoUXcUGl//USI3qcCVHrDE7r5lCpycYCSeUib/N5qnWKJ7IRn3AhWiMmjIg==
-    - secure: qXknmnQ+K0HyfjkA9KKSvRchKa07uHipDyqLtovrSBPwIuJph4nzm64XWiYJhvskfcVaJ9Ne/FTF46zZ16kIguqgvZggfF1Ks+Y7GowiLl8wo+9OKLJLiARyO4pqn3MoFSgRnAObpq6aqkRdRQtBkVMupLyA34UKSQPZnz7kffwGKF59/VGcYP/KhEaDXVXmVhmbl8O2XHDOk5xxSRA/R8keuADxaO+VR43lQSkksgM/TcQp1O8IgzY6GsGOZ74/hZ0tHFhSTUci2PA0n2pH6qbT95RlPs3LFoKEu/GFOy0i+7dbYrtX2YyhUB6RTeiWpAs8/0VpsLPVCJAxXYf1Jw== 
+    - secure: IC38y82rV4rMKdSqEQDC9N09Hh0ktowocCVYg1N3eqVpM4LIIxCCT3+DBwXjGFCNn7rC1JnLGV2JkgYT8iGOjY9SX5JLAtWtJusUj2LR8VDjnrtGAhKTplKy88DJ2pF2OtdUVCSzfIjXJ5I2uYQnsYM+ZayRFoXfbvTgHlmAX2Psy+PzksDLflm6P1BxfGenDBTc0rMYsPh45oDn7ylJG1q7ePtDo5Ha+MUYquJls4lo65+M9SC1wJMq4UiTValp+WVUyBS6zFsST8vhurR2insE/+t1pqbj1oSfSAKrrjo7NnOUtLduWGa+0SYdfAhIei44nzeNHRmO1zpfihmG8w==
+    # S1- secure: qXknmnQ+K0HyfjkA9KKSvRchKa07uHipDyqLtovrSBPwIuJph4nzm64XWiYJhvskfcVaJ9Ne/FTF46zZ16kIguqgvZggfF1Ks+Y7GowiLl8wo+9OKLJLiARyO4pqn3MoFSgRnAObpq6aqkRdRQtBkVMupLyA34UKSQPZnz7kffwGKF59/VGcYP/KhEaDXVXmVhmbl8O2XHDOk5xxSRA/R8keuADxaO+VR43lQSkksgM/TcQp1O8IgzY6GsGOZ74/hZ0tHFhSTUci2PA0n2pH6qbT95RlPs3LFoKEu/GFOy0i+7dbYrtX2YyhUB6RTeiWpAs8/0VpsLPVCJAxXYf1Jw== 
     - TOO=TUBU
    # - FO%&O=fizz
   matrix:
-    #- secure: M7mHHXcOM3b5vpruafumJ6agyy0zYuceGBvBAF2qdAclCvMRRUIdTP3aHMBoSNQJ7CWMKuzomHxrQGjezbvy6dnbf4yyT5c80GEwyIesUEhzmJHR/oHA4kAPOWmtJNVGoeJaYI7F1z8fosVg7/eLu668WEPaIKBMi7272YduwvI5WLZefH7XxBE0qW98l6lBi/Ad1QU4FmIviHHx2oa4DOP/cjInl8Cvmxtx3uvy9amGTVFmhmxPdkDbCkgr4xp9Sa/MZ87I87Yazf93rfW7fgmBL461ifX8c+BSiKE5OW9Z31A5v4kTwkXkKsxisMmIkVJUetZ1DElvEfvx2ssYWA==
-    - secure: IRNGxl8dYzbtUjOZUMsFxwnGggNgMOzK2bnMjussGrJzB/u5Zma15gKr87qqq+GnsD/R2+JzeTFKRN39e/v54Vc8dM7E+iZsuQ3tpvdpur9/XS7tSyobpW54M4M8HnQ1l/jzrPrlXBhBS4pir9MDY8uhijnZHuUut0hfJl6dB/pr74mZVciK+PrHZUX/u0NGYM4mAr7uch2QVtX3kSFPzcFwNUtrvumvIj6gpzowrufmJu8q6cCbhzQhtsJnoNBOaUYCP5dMcOJa+SpqkBoLx2vruxEFWU6m2aZjJKxG6vu0x/PkNLsJKxuw2guDmKCijfQWJPGiI1I0mbHe9jNo+Q==
+    - secure: RSMwGO29Z/xbeQT9CorrGZKUtIWXTT0/asJwYi7guJGUI/0c07rXFmSyi1/0yQGOpTfgoA0ZWyFIczXbdqXP+spDoNqclg12Cf0GWO+iF519bs9BvalJ/IhTbM3G4o22LUAPL0vnuKtKCVztP5s8yIQFEfHFxCu/OcK5tilSUmyCU91XvtKYXh4xQpJY/xGFxSsmW4xKVXXRBoirAxc5tiJvGOfqVuitYCD6wNa5srJeUK3OI2MGseWh1rJjJNY0CnobnrTtfdiv7bKOpuDdQGu+2Cl00zbSMXtnUkxKFTJPTloRCJxRiDrxl+/E7KwG7ox7Wq7nCUQjc4xK9BBvyg==
+    #S2- secure: IRNGxl8dYzbtUjOZUMsFxwnGggNgMOzK2bnMjussGrJzB/u5Zma15gKr87qqq+GnsD/R2+JzeTFKRN39e/v54Vc8dM7E+iZsuQ3tpvdpur9/XS7tSyobpW54M4M8HnQ1l/jzrPrlXBhBS4pir9MDY8uhijnZHuUut0hfJl6dB/pr74mZVciK+PrHZUX/u0NGYM4mAr7uch2QVtX3kSFPzcFwNUtrvumvIj6gpzowrufmJu8q6cCbhzQhtsJnoNBOaUYCP5dMcOJa+SpqkBoLx2vruxEFWU6m2aZjJKxG6vu0x/PkNLsJKxuw2guDmKCijfQWJPGiI1I0mbHe9jNo+Q==
     #- s2=test2
     - GOO=GUBU
     - m3=three
@@ -43,8 +43,6 @@ build:
     #- $SHIPPABLE_BUILD_DIR           
      
 
-    - GOO=GUBU
-    - FO&O=FUBU
   
   
 build:
