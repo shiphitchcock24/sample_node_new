@@ -29,7 +29,7 @@ build:
     pull: true
     
   ci:
-    - php --version
+    - node --version
    # - echo "$m1"
   #  - echo "$m2"
    # - echo "$GOO"
