@@ -33,13 +33,13 @@ build:
    # - sleep 5m
   
  
-  #post_ci:
-   # - docker push shiphitchcock4/hitchcock4_sample_nodenew
+  post_ci:
+    - docker push shiphitchcock4/hitchcock4_sample_nodenew
 
 integrations:
-  #hub:
-   # - integrationName: ship4-docker
-    #  type: docker
+  hub:
+    - integrationName: ship4-docker
+      type: docker
        
   notifications:
     - integrationName: ship_slack
