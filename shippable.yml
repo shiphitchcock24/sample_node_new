@@ -3,8 +3,8 @@
 language: node_js 
      
 # Version number
-#node_js:
- # - 0.12  
+node_js:
+  - 0.12  
   #- 0.10     
   #- 4.2.3 
   #- iojs-v1    
@@ -14,13 +14,13 @@ language: node_js
   #  - M1=ONE
 
 build:
-  pre_ci:
-    - docker build -t=shiphitchcock4/hitchcock4_sample_nodenew .  
+  #pre_ci:
+   # - docker build -t=shiphitchcock4/hitchcock4_sample_nodenew .  
 
   pre_ci_boot:
     image_name: shiphitchcock4/hitchcock4_sample_nodenew
     image_tag: latest
-    pull: false
+    pull: true
     options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
  
   ci:
@@ -35,6 +35,7 @@ build:
   
  
   post_ci:
+    - docker build -t=shiphitchcock4/hitchcock4_sample_nodenew . 
     - docker push shiphitchcock4/hitchcock4_sample_nodenew
 
 integrations:
