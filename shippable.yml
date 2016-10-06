@@ -1,11 +1,22 @@
 
 # Language setting
 language: node_js
+services:
+  - mysql
+  - postgres
+  - redis
+  - memcache
+  - elasticsearch
+  - mongodb
+  - rabbitmq
+  - neo4j
+  - couchdb
+  - rethinkdb
      
 # Version number
 node_js:
   - 0.12 
-    0.10     
+   # 0.10     
   #- 4.2.3 
   #- iojs-v1    
   #- iojs-v2   
