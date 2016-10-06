@@ -3,8 +3,8 @@ language: node_js
 # Version number
 node_js:
   #- 0.10
- # - 0.12
-  - 0.78
+  - "0.12"
+ 
  # - 4.2.3  
 #  - iojs-v1       
  # - iojs-v2  
@@ -14,5 +14,9 @@ node_js:
 build:     
   ci: 
     - node --version
+  pre_ci_boot:
+    image_name: drydock/u12nodall
+    image_tag: prod
+    pull: true  
    # - thgu
   #  - sleep 9m
