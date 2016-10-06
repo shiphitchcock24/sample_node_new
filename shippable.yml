@@ -1,4 +1,4 @@
-language: node_js
+#language: node_js
 
 # Version number
 node_js:
@@ -14,9 +14,9 @@ node_js:
 build:     
   ci: 
     - node --version
-  pre_ci_boot:
-    image_name: drydock/u12nodall
-    image_tag: prod
-    pull: true  
+ # pre_ci_boot:
+  #  image_name: drydock/u12nodall
+  #  image_tag: prod
+  #  pull: true  
    # - thgu
   #  - sleep 9m
