@@ -1,11 +1,11 @@
 
 # Language setting
-language: node_js  
+language: node_js 
      
 # Version number
-node_js:
-  - 0.12  
-  - 0.10     
+#node_js:
+ # - 0.12  
+  #- 0.10     
   #- 4.2.3 
   #- iojs-v1    
   #- iojs-v2   
@@ -43,7 +43,7 @@ integrations:
       type: docker
        
   notifications:
-    - integrationName: ship_slack
+    - integrationName: ship-slackS
       type: Slack
       recipients:
         - "#random" 
@@ -52,7 +52,7 @@ integrations:
       on_success: always
       on_failure: always
       
-    - integrationName: "ship-slack1"
+    - integrationName: "ship-slackT"
       type: Slack
       on_failure: always
       on_start: always
@@ -82,6 +82,7 @@ integrations:
       type: hipchat
       recipients:
         - '#testing'
+        - '@shiphitchcock4'
      # - '#Pillar%20of%20Autumn'
   
   #      - '@shiphitchcock4'
