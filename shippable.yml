@@ -13,5 +13,5 @@ node_js:
 build:     
   ci: 
     - node --version
-    - thgu
+   # - thgu
   #  - sleep 9m
