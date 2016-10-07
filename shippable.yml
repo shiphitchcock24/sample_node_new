@@ -37,8 +37,8 @@ build:
  
   ci:
     - node --version
-    - echo '$r1'
-    - echo '$r2'
+    - echo "$r1"
+    - echo "$r2"
     #- thy
    # - sudo docker ps
    # - sudo docker run -d drydock/u14nod:prod
