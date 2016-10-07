@@ -29,7 +29,7 @@ build:
   pre_ci_boot:
     #image_name: drydock/u12phpall
     image_name: shiphitchcock4/hitchcock4_sample_nodenew
-    image_tag: prod
+    image_tag: latest
     pull: true
     
   ci:
