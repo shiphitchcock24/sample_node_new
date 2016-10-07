@@ -10,7 +10,7 @@ node_js:
   #- 5.0
 env:
   #global:
-    - secure: NU5zQg50NWv0decZJ8BIEvKRrmttVTg07/DnzACcxm2CSB2uX1QlbBxYtQUcwwJp8+6qiVTiKVawsh3weNvSER8UE6czhriGgG4702m6xHymTPFbQUoN8vsytk8HRk3B9Y9QNgvyTBcCCwKSLPsB7NV4hoPqFjan5qy6PF4Cg9CykpCMxJM1HDIPSNAXZas6gtIEXbI6iJ9c/pq1jL6eGR98PTCD5LFOrzPDu9Rl8ZTCGtTFiQlI0zkEG1ofn+irutyVPqA8CjMKcXItIH4KYfzgpk18XufH6tfbfWJah+oLsYOBtj6XMz8arYPKDLj1SIDBytxf3lfwGSv/BMs+hA==
+    - secure: sreNU5zQg50NWv0decZJ8BIEvKRrmttVTg07/DnzACcxm2CSB2uX1QlbBxYtQUcwwJp8+6qiVTiKVawsh3weNvSER8UE6czhriGgG4702m6xHymTPFbQUoN8vsytk8HRk3B9Y9QNgvyTBcCCwKSLPsB7NV4hoPqFjan5qy6PF4Cg9CykpCMxJM1HDIPSNAXZas6gtIEXbI6iJ9c/pq1jL6eGR98PTCD5LFOrzPDu9Rl8ZTCGtTFiQlI0zkEG1ofn+irutyVPqA8CjMKcXItIH4KYfzgpk18XufH6tfbfWJah+oLsYOBtj6XMz8arYPKDLj1SIDBytxf3lfwGSv/BMs+hA==
    # - secure: IC38y82rV4rMKdSqEQDC9N09Hh0ktowocCVYg1N3eqVpM4LIIxCCT3+DBwXjGFCNn7rC1JnLGV2JkgYT8iGOjY9SX5JLAtWtJusUj2LR8VDjnrtGAhKTplKy88DJ2pF2OtdUVCSzfIjXJ5I2uYQnsYM+ZayRFoXfbvTgHlmAX2Psy+PzksDLflm6P1BxfGenDBTc0rMYsPh45oDn7ylJG1q7ePtDo5Ha+MUYquJls4lo65+M9SC1wJMq4UiTValp+WVUyBS6zFsST8vhurR2insE/+t1pqbj1oSfSAKrrjo7NnOUtLduWGa+0SYdfAhIei44nzeNHRmO1zpfihmG8w==
     #- secure: qXknmnQ+K0HyfjkA9KKSvRchKa07uHipDyqLtovrSBPwIuJph4nzm64XWiYJhvskfcVaJ9Ne/FTF46zZ16kIguqgvZggfF1Ks+Y7GowiLl8wo+9OKLJLiARyO4pqn3MoFSgRnAObpq6aqkRdRQtBkVMupLyA34UKSQPZnz7kffwGKF59/VGcYP/KhEaDXVXmVhmbl8O2XHDOk5xxSRA/R8keuADxaO+VR43lQSkksgM/TcQp1O8IgzY6GsGOZ74/hZ0tHFhSTUci2PA0n2pH6qbT95RlPs3LFoKEu/GFOy0i+7dbYrtX2YyhUB6RTeiWpAs8/0VpsLPVCJAxXYf1Jw== 
     - TOO=TUBU
@@ -27,8 +27,8 @@ env:
 build:
   
   pre_ci_boot:
-    #image_name: drydock/u12phpall
-    image_name: shiphitchcock4/hitchcock4_sample_nodenew
+    image_name: drydock/u12phpall
+    #image_name: shiphitchcock4/hitchcock4_sample_nodenew
     image_tag: latest
     pull: true
     
